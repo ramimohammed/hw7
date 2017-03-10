@@ -1,0 +1,65 @@
+//Q1  
+
+pseudocode @1 by using for 
+
+start
+
+-define all var
+-define n as var
+-set a start point
+-make for loop  or while loop
+(start,end,inn)
+(n=0; n<=a.length; n++)
+
+-make condition for even or odd #
+(n %2 === 0)
+-print the results as even
+-other print as odd 
+-end
+
+
+
+
+---------------------------------------------------------------------
+
+pseudocode @2 by using while
+
+
+variable array a= [17,24,4,26,19,30,2,66,40];
+var n= 0
+
+while  n is not exced the length of array then do the following
+
+ take a[n] divide it  by 2 using Modulus operator   
+
+	if the result equal to zero then [n] is even
+	else the [n] in odd
+	go back to while
+	
+                                
+
+
+//js
+
+
+
+var a= [17,24,4,26,19,30,2,66,40];  
+var n = a[0];
+var a_length = a.length;
+
+for (n=0; n<=a.length; n++); {
+if (n %2 === 0);{
+
+//while (position > a_length);
+//if (n %2 !== 0);  {
+  
+  console.log ( n = "even");
+}
+
+'else';  {
+console.log (n ="odd");
+
+}
+}
+
+

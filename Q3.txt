@@ -1,0 +1,97 @@
+Q3   function  boolian retern pseudocode and program
+//  Adding the Function that will split the numbers even and odds 
+
+
+define function (isodd)  
+ put a[i] divide it  by 2 %  if =0 0r =1
+
+	if the result is =1 
+return a true  
+if the result =0
+return fals
+
+
+var a= [17,24,4,26,19,30,2,66,40];
+var i=0
+var b= array
+var o=0
+var min=1
+while  i is not exced the length of array then do the following
+
+if the returnes value fronm isodd function is true then 
+		print a[i]
+                                    	 
+		the value of  b[0]=a[0]
+i++
+	                   
+go to while 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  Adding the Function that will split the numbers even and odds 
+
+function isodd(Array){
+	
+	if((Array)%2 !== 0){return true;
+	}
+	return false;
+}
+
+
+
+
+
+
+var a= [17,24,4,26,19,30,2,66,40];  
+var n = a[0];
+var position = 0;
+var a_length = a.length;
+
+for (n=0; n<=a.length; n++); {
+
+function is odd
+if([a] % 2= 1)
+retern false 
+
+else if ([a] % 2= 0)
+retern true
+
+
+
+
+
+
+function isEven(n) {
+  n = Number(n);
+  return n === 0 || !!(n && !(n%2));
+}
+
+function isOdd(n) {
+  return isEven(Number(n) + 1);
+}
+

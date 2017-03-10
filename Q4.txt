@@ -1,0 +1,63 @@
+pseudocode  by using while and spiccal function
+
+
+variable array a= [17,24,4,26,19,30,2,66,40];
+var n= 0
+
+while  n is not exced the length of array then do the following
+
+ take a[n] divide it  by 2 using Modulus operator   % 
+
+	if the result equal to zero then [n] is even
+	else the [n] in odd
+	go back to while
+	
+	
+	function
+	var b=0
+
+as long as is equal to the number of the odd numbers in b
+
+c
+
+
+
+
+
+
+
+
+
+
+var numbers = [17, 24, 4, 26, 19, 30, 2, 66, 40];
+var evenNumbers = [];
+var oddNumbers = [];
+
+function classifyNumbers(arr){
+
+  for(var i=0; i<=arr.length-1; i++){
+     if (arr[i] % 2 === 0 ){
+        
+        evenNumbers.push(arr[i]);
+     } else {
+       
+        oddNumbers.push(arr[i]);
+     }
+  }
+}
+
+classifyNumbers(numbers);
+
+console.log('Even numbers: ' + evenNumbers);
+console.log('Odd numbers: ' + oddNumbers);
+
+var b=0
+
+as long as is equal to the number of the odd numbers in b
+
+check if  the value of b[j] is less than min 
+then  min = b[j]
+print  min
+increase j by one 
+
+
