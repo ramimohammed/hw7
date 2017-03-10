@@ -35,8 +35,7 @@ while  n is not exced the length of array then do the following
 	if the result equal to zero then [n] is even
 	else the [n] in odd
 	go back to while
-	
-                                
+
 
 
 //js

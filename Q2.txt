@@ -1,32 +1,62 @@
-Q2
+Q2 psudocode 
 
 start
 
-define all var
-define n as var
-set a start point
-make for loop  or while loop
-(start,end,inn)
-make condition for even or odd #
-(
-print the results
+define all var 
+
+a= array  [17,24,4,26,19,30,2,66,40]
+i=0       set a start point
+b=[]      set as anew array for odd #
+x=0       set a start point for the new array
+min=1     
+
+make while loop
+ while i less than or equal to a.array    
+ 
+ if a[i] divided 2 % not equal to 0      to elect the odd num
+ 
+ print a[i] 
+  
+  set the increment i +1
+  my new array [odd #] 
+  
+  now find the min# by using for loop
+  start---end---increment
+   for(j=0  j<=x  j++)
+   use if to compair the min # 
+	if (b[j] less than min )
+	then
+   	min =b[j]
+   	
+print ("the smallest numer is " + min)
+  
 end
 
 
 //js
 
+var a= [17,24,4,26,19,30,2,66,40];
+var i=0;
+var b=[];
+var x=0;
+var min=1;
+while (i<=a.length)
+	{
+	if ((a[i]%2) !== 0)
+	{
+	console.log(a[i]);
+	x=x+1;
+	}
+    i++;
+	
+	}
 
-
-var a= [17,24,4,26,19,30,2,66,40];  
-var n = a[0];
-var position = 0;
-var a_length = a.length;
-
-
-while (position > a_length){
-if (a[position] > min );  {
-min=a[position]
+for(j=0;j<=x;++j){
+	
+if(b[j]<min)
+{
+min=b[j]	
 }
-position = position +1
-  
-} 
+
+}
+console.log("the smallest numer is "+min);

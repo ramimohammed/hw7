@@ -13,20 +13,6 @@ while  n is not exced the length of array then do the following
 	go back to while
 	
 	
-	function
-	var b=0
-
-as long as is equal to the number of the odd numbers in b
-
-c
-
-
-
-
-
-
-
-
 
 
 var numbers = [17, 24, 4, 26, 19, 30, 2, 66, 40];
